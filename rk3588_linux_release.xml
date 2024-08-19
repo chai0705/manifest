@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gitee"
+           fetch="https://gitee.com/chai0705" />
+  <default revision="master"
+           remote="gitee" sync-j="8" />
+  <project path="data" name="game" revision="master" />
+</manifest>
+
