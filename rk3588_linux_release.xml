@@ -2,5 +2,9 @@
 <manifest>
   <remote  name="origin" fetch="https://github.com/chai0705" />
   <default remote="origin" sync-j="8" />
-  <project name="rootfs-build" path="rootfs-build" revision="main" />
+  <project name="rootfs-build" path="rootfs-build" revision="master" />
+  <project name="u-boot" path="u-boot" revision="master" />
+  <project name="kernel" path="kernel" revision="master" />
+  <project name="rkbin" path="rkbin" revision="master" />
+  <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="adbb295a970c4b39dc487c95226fe84d2c460072" upstream="master" dest-branch="master"/>
 </manifest>
