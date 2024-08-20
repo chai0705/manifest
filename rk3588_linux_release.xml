@@ -8,8 +8,9 @@
   <project name="rkbin" path="rkbin" revision="master" />
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="master" />
   <project name="device_rockchip" path="device/rockchip" revision="master" >
-    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
-    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+    <linkfile src="common/mkfirmware.sh" dest="mkfirmware.sh"/>
+    <linkfile src="common/build.sh" dest="build.sh"/>
+    <linkfile src="common/rkflash.sh" dest="rkflash.sh"/>
     <linkfile src="rk3588" dest="device/rockchip/.target_product"/>
   </project>
 </manifest>
