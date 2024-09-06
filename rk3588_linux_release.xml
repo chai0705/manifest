@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="origin" fetch="https://github.com/chai0705" />
   <default remote="origin" sync-j="8" />
-  <project name="ubuntu" revision="ubuntu20" clone-depth="1" />
+  <project name="ubuntu" revision="ubuntu20.04" clone-depth="1" />
   <project name="u-boot" path="u-boot" revision="master" clone-depth="1" />
   <project name="kernel" path="kernel" revision="master" clone-depth="1" />
   <project name="rkbin" path="rkbin" revision="master" />
