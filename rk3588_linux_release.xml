@@ -2,9 +2,9 @@
 <manifest>
   <remote  name="origin" fetch="https://github.com/chai0705" />
   <default remote="origin" sync-j="8" />
-  <project name="rootfs-build" path="rootfs-build" revision="master" />
-  <project name="u-boot" path="u-boot" revision="master" />
-  <project name="kernel" path="kernel" revision="master" />
+  <project name="ubuntu" revision="ubuntu20" clone-depth="1" />
+  <project name="u-boot" path="u-boot" revision="master" clone-depth="1" />
+  <project name="kernel" path="kernel" revision="master" clone-depth="1" />
   <project name="rkbin" path="rkbin" revision="master" />
   <project name="initrd" path="initrd" revision="master" />
   <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="master" />
