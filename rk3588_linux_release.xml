@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="git@github.com:chai0705/manifest.git" />
+  <remote  name="origin" fetch="https://github.com/chai0705" />
   <default remote="origin" sync-jobs="8" />
 
   <project name="ubuntu" revision="ubuntu20.04" clone-depth="1" />
