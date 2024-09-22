@@ -15,7 +15,7 @@
     <linkfile src="common/mkfirmware.sh" dest="mkfirmware.sh"/>
     <linkfile src="common/build.sh" dest="build.sh"/>
     <linkfile src="common/rkflash.sh" dest="rkflash.sh"/>
-    <linkfile src="rk356x" dest="device/rockchip/.target_product"/>
+    <linkfile src="rk3568" dest="device/rockchip/.target_product"/>
   </project>
 
   <project name="tools" revision="210be81d659a6bc4e7a648744ae77837f394be0f" upstream="master" dest-branch="master">
