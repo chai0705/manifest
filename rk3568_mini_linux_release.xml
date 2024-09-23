@@ -22,7 +22,7 @@
     <linkfile src="windows/RKDevTool/RKDevTool_Release/rk3588-config.cfg" dest="tools/windows/RKDevTool/RKDevTool_Release/config.cfg"/>
     <linkfile src="windows/RKDevTool/rockdev/rk3588-package-file" dest="tools/windows/RKDevTool/rockdev/package-file"/>
     <linkfile src="windows/RKDevTool/rockdev/rk3588-mkupdate.bat" dest="tools/windows/RKDevTool/rockdev/mkupdate.bat"/>
-    <linkfile src="linux/Linux_Pack_Firmware/rockdev/rk3588-mkupdate.sh" dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh"/>
+    <linkfile src="linux/Linux_Pack_Firmware/rockdev/rk356x-mkupdate.sh" dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh"/>
     <linkfile src="linux/Linux_Pack_Firmware/rockdev/rk3588-package-file" dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file"/>
   </project>
 </manifest>
