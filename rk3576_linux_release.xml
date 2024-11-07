@@ -18,7 +18,7 @@
     <linkfile src="rk3576" dest="device/rockchip/.target_product"/>
   </project>
 
-  <project name="tools" revision="210be81d659a6bc4e7a648744ae77837f394be0f" upstream="master" dest-branch="master">
+  <project name="tools" revision="master" clone-depth="1">
     <linkfile src="linux/Linux_Pack_Firmware/rockdev/rk3576-mkupdate.sh" dest="tools/linux/Linux_Pack_Firmware/rockdev/mkupdate.sh"/>
     <linkfile src="linux/Linux_Pack_Firmware/rockdev/rk3576-package-file" dest="tools/linux/Linux_Pack_Firmware/rockdev/package-file"/>
   </project>
